@@ -3,8 +3,8 @@ function Tempo(props) {
     const dynamicDateString = dynamicDate.toGMTString();
 
     return <div>
-        <div suppressHydrationWarning>{dynamicDateString} (dinámico)</div>
-        <div suppressHydrationWarning>{props.staticDateString} (estático)</div>
+        <div>{dynamicDateString} (dinámico)</div>
+        <div>{props.staticDateString} (estático)</div>
     </div>
 }
 
